@@ -1,14 +1,19 @@
 /*  your css code here. If applicable */
 
-.box{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align:center;
-    background-color:lightblue;
-    width:200px;
-    height:200px;
+.center-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  border: 2px solid black;
+  text-align: center;
 	align-content:center;
-	
+}
+
+
+.center-box p {
+  color: purple;
 }
